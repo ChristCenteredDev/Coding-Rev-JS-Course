@@ -88,3 +88,11 @@ var arr = ["Todd", "Chett", "Chad", "Matt", "Henry"];
 for (var i = 0; i < arr.length; i++) {
     console.log(arr[i]);
 }
+
+// While Loop
+var i = 0;
+
+while (i < 10) {
+    console.log(i);
+    i++;
+}
