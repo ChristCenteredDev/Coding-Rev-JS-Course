@@ -30,3 +30,10 @@ var obj = {
 }
 
 console.log(obj.name);
+
+// Control Structure
+var bool = true;
+
+if (bool == true) {
+    console.log("bool equals " + bool);
+}
