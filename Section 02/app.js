@@ -46,3 +46,20 @@ if (name == "Ron") {
 } else {
     console.log("It's someone else.");
 }
+
+// Switch Statement
+var slot = 3;
+
+switch (slot) {
+    case 1:
+        console.log("Won a TV");
+        break;
+    case 2:
+        console.log("Won a Playstation");
+        break;
+    case 3:
+        console.log("Won a Home Theatre System");
+        break;
+    default:
+        console.log("Spin again");
+}
