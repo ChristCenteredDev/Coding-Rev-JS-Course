@@ -138,3 +138,11 @@ if (test === 2) {  // Strict Equality
 } else {
     console.log("They are not same"); // False
 }
+
+// Greater Than & Less Than
+
+if (test > 2) {  
+    console.log("Test is greater");
+} else {
+    console.log("Test is not greater");
+}
