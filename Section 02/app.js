@@ -123,3 +123,18 @@ total = previous * current; // 20000
 
 // Divide
 total = previous / current; // 2
+
+// Compare Operator
+var test = "2";
+
+if (test == 2) {
+    console.log("They are the same");  // True
+} else {
+    console.log("They are not same");
+}
+
+if (test === 2) {  // Strict Equality
+    console.log("They are the same");
+} else {
+    console.log("They are not same"); // False
+}
