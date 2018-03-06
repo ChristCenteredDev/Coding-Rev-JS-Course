@@ -12,3 +12,11 @@ if (bool != false) {
 var arr = ["Ted", "Frank", "Chris", "Chad"];
 
 console.log(arr[1]);
+
+// Null, Undefined, NAN
+var arrr = [0, 10, 11, null];
+var num = "Todd";
+
+console.log(num * 5); // NaN Error - Not a number
+console.log(arrr[4]); // Undefined error
+console.log(arrr[3]); // Null
