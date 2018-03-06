@@ -146,3 +146,24 @@ if (test > 2) {
 } else {
     console.log("Test is not greater");
 }
+
+// Boolean
+if (1 > 0) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+// Ternary 
+var x = 10;
+var y = 10;
+
+(x == y ? console.log(true) : console.log(false));
+
+// Function
+function isTrue(x) {
+    var result = (x == true ? true : false);
+    return result;
+}
+
+
