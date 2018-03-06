@@ -63,3 +63,10 @@ switch (slot) {
     default:
         console.log("Spin again");
 }
+
+// For Loop
+var x = 1;
+
+for (var i = 10; i > x; i--) {
+    console.log(`Countdown: ${i}`);
+}
