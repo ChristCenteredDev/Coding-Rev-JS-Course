@@ -20,3 +20,13 @@ var num = "Todd";
 console.log(num * 5); // NaN Error - Not a number
 console.log(arrr[4]); // Undefined error
 console.log(arrr[3]); // Null
+
+// Objects
+var obj = {
+    name: "Todd",
+    age: 33,
+    state: "Michigan",
+    country: "USA"
+}
+
+console.log(obj.name);
