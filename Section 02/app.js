@@ -82,4 +82,9 @@ for (var i = 1; i <= 5; i++) {
     console.log(i);
 }
 
- 
+// For Loops: Arrays
+var arr = ["Todd", "Chett", "Chad", "Matt", "Henry"];
+
+for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
