@@ -37,3 +37,12 @@ var bool = true;
 if (bool == true) {
     console.log("bool equals " + bool);
 }
+
+// IF Statements
+var name = "Todd";
+
+if (name == "Ron") {
+    console.log("It's Ron");
+} else {
+    console.log("It's someone else.");
+}
