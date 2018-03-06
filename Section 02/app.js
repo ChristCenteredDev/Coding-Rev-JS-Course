@@ -70,3 +70,16 @@ var x = 1;
 for (var i = 10; i > x; i--) {
     console.log(`Countdown: ${i}`);
 }
+
+// Break & Continue
+for (var i = 1; i <= 5; i++) {
+    if (i == 2) {
+        continue;
+        // continue - 1, 3, 4, 5
+        // break - 1
+    }
+
+    console.log(i);
+}
+
+ 
