@@ -101,3 +101,16 @@ while (logged) {
     console.log(i);
     i++;
 }
+
+// Addition & Concatenation
+var previous = 200;
+var current = 100;
+
+current += previous; // 300
+
+var firstName = "Todd";
+var lastName = "Carter";
+
+var fullName = firstName + " " + lastName;  // Concatenation
+
+// Subtraction
