@@ -118,3 +118,8 @@ var total = previous - current;
 
 console.log(total); // 100
 
+// Multiply
+total = previous * current; // 20000
+
+// Divide
+total = previous / current; // 2
