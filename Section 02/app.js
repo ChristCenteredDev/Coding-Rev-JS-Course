@@ -114,3 +114,7 @@ var lastName = "Carter";
 var fullName = firstName + " " + lastName;  // Concatenation
 
 // Subtraction
+var total = previous - current;
+
+console.log(total); // 100
+
