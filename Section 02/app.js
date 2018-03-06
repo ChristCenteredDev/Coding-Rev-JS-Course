@@ -90,9 +90,14 @@ for (var i = 0; i < arr.length; i++) {
 }
 
 // While Loop
+var logged = true;
 var i = 0;
 
-while (i < 10) {
+while (logged) {
+    if (i === 3) {
+        logged = false;
+    }
+
     console.log(i);
     i++;
 }
