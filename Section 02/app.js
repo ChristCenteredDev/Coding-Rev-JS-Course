@@ -166,4 +166,23 @@ function isTrue(x) {
     return result;
 }
 
+// Arguments
+function isTrue(x) {  // x is the argument
+    var result = (x == true ? true : false);
+    return result;
+}
 
+// Global & Local Scope
+var global = "global scope";
+
+function scope() {
+    var local = "local scope";
+}
+
+// Function Returns
+function isHot(x) {
+    var result = (x == true ? true : false);
+    return result;
+}
+
+// Coding Challenge
