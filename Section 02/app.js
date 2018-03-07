@@ -185,11 +185,44 @@ function isHot(x) {
     return result;
 }
 
-// Coding Challenge
+// Coding Challenge 1
 var username = "Ted";
 var age = 33;
 var loggedIn = true;
 
 function isLoggedIn(loggedIn) {
     loggedIn ? console.log(`My name is ${username} and i am ${age}years old`) : console.log("Please log in to see the message");
+}
+
+// Coding Challenge 2
+var arr = ["Ted", "Frank", "Tom", "Sam", "Shad"];
+
+for (var i = 0; i < arr.length; i++) {
+    if (arr[i] == "Sam") {
+        console.log("The name 'Sam' was found");
+    } else {
+        console.log(arr[i]);
+    }
+}
+
+// Coding Challenge 3
+var numer = 5;
+var iteration = 0;
+
+while (number < 50) {
+    iteration += 1;
+    number += 5;
+
+    console.log(number);
+    console.log(iteration);
+}
+
+// Coding Challenge 4
+var user = {
+    firstName: "Todd",
+    lastName: "Vachek"
+};
+
+function message() {
+    prompt(`Hello ${user.firstName} ${user.lastName} welcome back.`);
 }
