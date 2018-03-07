@@ -186,3 +186,10 @@ function isHot(x) {
 }
 
 // Coding Challenge
+var username = "Ted";
+var age = 33;
+var loggedIn = true;
+
+function isLoggedIn(loggedIn) {
+    loggedIn ? console.log(`My name is ${username} and i am ${age}years old`) : console.log("Please log in to see the message");
+}
