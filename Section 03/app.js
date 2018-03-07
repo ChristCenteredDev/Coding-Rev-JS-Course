@@ -15,3 +15,18 @@ console.log(document.querySelector("#different")); // Mordern DOM Method
 console.log(document.querySelectorAll("div")); // Mordern DOM Method
 
 // Create an Element
+var div = document.createElement("div");
+div.textContent = "My new content";
+div.style.fontSize = "20px";
+
+console.log(div);
+
+// Insert an Element
+var parent = document.querySelector(".parent");
+
+var div = document.createElement("div");
+div.textContent = "My new content";
+div.style.fontSize = "20px";
+
+parent.appendChild(div);
+
