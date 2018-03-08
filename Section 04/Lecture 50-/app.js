@@ -38,3 +38,30 @@ console.log(array2.slice(3, 7)); // 4, 5, 6, 7
 
 
 // Concat & Join
+var array3 = ["John", "Helen", "Frances", "Mark"];
+var otherArray = ["Marcy", "Micheal"];
+
+var finalArray = array3.concat(otherArray);
+
+console.log(array3);
+console.log(otherArray);
+console.log(finalArray);
+
+var array4 = ["John", "Helen", "Frances", "Mark"];
+var newArray4 = array4.join();
+console.log(newArray4);
+
+// Helpers: Filter
+
+var nums = [1, 5, 10, 20, 30];
+
+var filtered = nums.filter(function (item) {
+    if (item > 9) {
+        return item
+    }
+});
+
+console.log(filtered);
+console.log(nums);
+
+// Helpers: Map
