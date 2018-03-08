@@ -37,3 +37,35 @@ var getResult2 = multiply2(60);
 
 console.log(getResult());
 console.log(getResult2());
+
+// Built-in Methods
+var name = "Luke Skywalker";
+
+// Convert to uppercase
+console.log(name.toUpperCase());
+// Convert to lowercase
+console.log(name.toLowerCase());
+// Trim white spaces
+console.log(name.trim());
+// Get the amount of characters
+console.log(name.length);
+// Get a specific character
+console.log(name[1]);
+console.log(name.charAt(0));
+// Merge it with a different string
+console.log(name.concat(" , that's my name."));
+// Split every word of it
+console.log(name.split(" "));
+
+// Set Interval, Clear Interval, Set Timeout
+setTimeout(function () {
+    alert("Welcome to the page...")
+}, 2000);
+
+var hello = setInterval(function () {
+    console.log("Hello");
+}, 2000);
+
+setTimeout(function () {
+    clearInterval(hello);
+}, 5000)
