@@ -64,4 +64,17 @@ var filtered = nums.filter(function (item) {
 console.log(filtered);
 console.log(nums);
 
-// Helpers: Map
+// Helpers: Map & ForEach
+var nums2 = [1, 5, 10, 20, 30];
+var filtered2 = nums2.map(function (item) {
+    return item + 5;
+})
+
+console.log(filtered2);
+
+var names = ["John", "Helen", "Frances", "Mark"];
+
+names.forEach(function (item) {
+    console.log(`My name is ${item}`);
+})
+
