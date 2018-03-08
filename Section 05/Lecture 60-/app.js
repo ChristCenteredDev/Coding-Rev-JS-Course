@@ -68,4 +68,24 @@ var hello = setInterval(function () {
 
 setTimeout(function () {
     clearInterval(hello);
-}, 5000)
+}, 5000);
+
+// Manipulate Strings & Numbers
+var number = "20";
+console.log(typeof parseInt(number));  // .toString() - converts a number to String
+
+// Math Helpers
+
+// Math.round
+console.log(Math.round(2.46)); // 2
+// Math.ceil
+console.log(Math.ceil(2.46)); // 3
+// Math.floor
+console.log(Math.floor(2.46)); // 2
+// Math.min
+var arr = [2.43, 7, 1.01, 11.23, 1.00];
+console.log(Math.min(2.43, 7, 1.01, 11.23, 1.00)); // 1
+// Math.max
+console.log(Math.max(2.43, 7, 1.01, 11.23, 1.00)); // 11.23
+// Math.random
+console.log(Math.floor(Math.random() * 6) + 1); // 1-6
