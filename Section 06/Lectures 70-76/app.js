@@ -39,3 +39,42 @@ console.log(user);
 console.log(user.__proto__);
 
 // Prototypes in real life
+function FastCar() {
+    this.seats = 2;
+    this.available = function () {
+        console.log(this.model + " - not available.");
+    }
+
+}
+
+var ford = new FastCar();
+var chevy = new FastCar();
+
+ford.color = "red";
+chevy.color = "blue";
+
+ford.model = "mustang";
+chevy.model = "nova";
+
+console.log(ford);
+console.log(chevy);
+ford.available();
+
+function FastCar2(brand, color) {
+    this.brand = brand;
+    this.color = color;
+    this.seats = 2;
+    this.available = function () {
+        console.log(this.model + " - not available.");
+    }
+}
+
+var ford2 = new FastCar2("Ford", "Black");
+
+if ("color" in ford2) {
+    console.log("It is");
+}
+
+for (var field in ford2) {
+    console.log(field);
+}
