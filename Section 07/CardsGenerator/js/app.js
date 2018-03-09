@@ -38,10 +38,20 @@ var db = [
             var email = document.querySelector('#user_email').value;
             var age = document.querySelector('#user_age').value;
 
-            document.querySelector('#myForm').reset();
+            var elements = [name, email, age];
 
-            db.push({ name: name, email: email, age: age });
-            generateList();
+            if (validateUser(elements)) {
+                document.querySelector('#myForm').reset();
+                db.push({ name: name, email: email, age: age });
+                generateList();
+            } else {
+
+                document.querySelector("#error").style.display = "block";
+                setTimeout(function () {
+                    document.querySelector("#error").style.display = "none";
+                }, 2000);
+
+            }
         }
 
         document.querySelector('#myForm').addEventListener("submit", function (e) {
@@ -49,8 +59,18 @@ var db = [
             grabUser();
 
         });
-
     };
+
+    this.validateUser = function (inputs) {
+
+        for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i] == '') {
+                return false;
+            }
+        }
+        return true;
+    }
+
 
     this.init();
 })(db);
