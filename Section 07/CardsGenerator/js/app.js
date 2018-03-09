@@ -28,7 +28,7 @@ var db = [
         }
         parent.innerHTML = '';
         parent.insertAdjacentHTML('afterbegin', template);
-
+        deleteCard();
     };
 
     this.enterUser = function () {
@@ -69,6 +69,24 @@ var db = [
             }
         }
         return true;
+    }
+
+    this.deleteCard = function () {
+        var buttons = document.querySelectorAll('.card-delete');
+
+        function deleteThis(element) {
+            var obj = parseInt(element.getAttribute('data-card'));
+
+            db.splice(obj, 1);
+            generateList();
+        }
+
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", function (e) {
+                deleteThis(this);
+            });
+        }
+         
     }
 
 
