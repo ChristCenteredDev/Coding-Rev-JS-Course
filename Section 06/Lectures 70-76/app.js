@@ -78,3 +78,4 @@ if ("color" in ford2) {
 for (var field in ford2) {
     console.log(field);
 }
+
