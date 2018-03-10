@@ -12,13 +12,10 @@
         function generateList(input) {
             var value = input.value;
 
-
-            //  Modify Below Code
-
             if (validateUser(value)) {
                 applicants.push(value);
                 input.value = "";
-                console.log(applicants);
+                showList();
 
             } else {
 
@@ -29,10 +26,24 @@
 
             }
 
-            //  Modify Above code
-
 
         }
+
+        function showList() {
+            var parent = document.querySelector('.applicant_list_wrapper');
+            var template = '';
+
+            for (var i = 0; i < applicants.length; i++) {
+                template += '<span class="name-tag" data-id="' + i + '">' + applicants[i] + '</span>'
+            }
+
+            parent.innerHTML = '';
+            parent.insertAdjacentHTML('afterbegin', template);
+            deleteOne();
+
+        }
+
+
 
         var addBtn = document.querySelector("#add_applicant");
 
