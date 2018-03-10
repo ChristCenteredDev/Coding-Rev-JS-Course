@@ -48,8 +48,13 @@ input:focus {
     font-size: 10px;
 }
 
-.error {
-    /* Need to complete */
+#error {
+    display: none;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0 0 0;
 }
 
 .applicant_list {
@@ -72,6 +77,10 @@ input:focus {
 
 .button_container {
     margin-top: 20px;
+}
+
+#add_applicant {
+    cursor: pointer;
 }
 
 .button_container div {

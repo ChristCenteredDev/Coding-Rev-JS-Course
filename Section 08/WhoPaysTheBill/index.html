@@ -17,14 +17,14 @@
     <div class="container">
         <div class="row">
 
-            <div class="applicant_container hidden">
+            <div class="applicant_container">
                 <h1>Who pays the bill?</h1>
                 <div class="applicant_input">
                     <input type="text" id="applicant_value" placeholder="Enter Applicant" />
                     <span id="add_applicant">Add</span>
                 </div>
                 
-                <p hidden class="error">Must not be blank</p>
+                <p id="error">Must not be blank or duplicate</p>
 
                 <div class="applicant_list">
                     <h5>Who's participating?</h5>
@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="results_container">
+            <div class="results_container hidden">
                 <h1>The looser is:</h1>
                 <div class="result">
                     <h3>John</h3>
