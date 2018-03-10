@@ -48,7 +48,7 @@ input:focus {
     font-size: 10px;
 }
 
-#error {
+#error, #error2 {
     display: none;
     text-align: center;
     color: red;
