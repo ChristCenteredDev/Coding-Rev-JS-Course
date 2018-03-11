@@ -8,8 +8,8 @@ Course: (https://www.udemy.com/master-javascript-programming-extended-course/)
 *This repo is a collection of the work I will be completing for the course listed*
 
 ### Projects:
-Card Generator (Unfinished) <br>
-Who pays the bill? (Unfinished) <br>
+Card Generator (https://github.com/ChristCenteredDev/Coding-Rev-JS-Course/tree/master/Section%2007/CardsGenerator) <br>
+Who pays the bill? (https://github.com/ChristCenteredDev/Coding-Rev-JS-Course/tree/master/Section%2008/WhoPaysTheBill) <br>
 Music DB (Unfinished) <br>
 Awesome Tabs (Unfinished) <br>
 Card Slider (Unfinished) <br>
