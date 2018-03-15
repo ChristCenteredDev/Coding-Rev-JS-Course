@@ -100,4 +100,8 @@ input:focus {
 #not_match {
     display: none;
     text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0 0 0;
 }

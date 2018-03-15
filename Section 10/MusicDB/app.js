@@ -58,7 +58,11 @@
             container.insertAdjacentHTML('afterbegin', template);
 
         } else {
-            document.querySelector('#not_match').style.display = 'block';
+            document.querySelector("#not_match").style.display = "block";
+            setTimeout(function () {
+                document.querySelector("#not_match").style.display = "none";
+            }, 2000);
+
         }
 
 
