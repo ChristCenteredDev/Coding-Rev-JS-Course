@@ -10,7 +10,7 @@ Course: (https://www.udemy.com/master-javascript-programming-extended-course/)
 ### Projects:
 Card Generator (https://github.com/ChristCenteredDev/Coding-Rev-JS-Course/tree/master/Section%2007/CardsGenerator) <br>
 Who pays the bill? (https://github.com/ChristCenteredDev/Coding-Rev-JS-Course/tree/master/Section%2008/WhoPaysTheBill) <br>
-Music DB (Unfinished) <br>
+Music DB (https://github.com/ChristCenteredDev/Coding-Rev-JS-Course/tree/master/Section%2010/MusicDB) <br>
 Awesome Tabs (Unfinished) <br>
 Card Slider (Unfinished) <br>
 Overlay (Unfinished) <br>
