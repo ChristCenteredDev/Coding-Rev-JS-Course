@@ -16,3 +16,23 @@ function user() {
 user();
 
 console.log(winner); // true - Global variable shows
+
+// Template Literals
+
+function employee() {
+    var name = "Francis";
+    var age = 25;
+    var position = "Manager";
+
+    // ES5 Format with Concatination
+    console.log("His name is " + name + ", and he is" + age + "years old, he works as " + position);
+}
+
+function employee2() {
+    const name = "Francis";
+    let age = 25;
+    let position = "Manager";
+
+    // Template Literal format
+    console.log(`His name is ${name}, and he is ${age} years old, he works as ${position}`);
+}
