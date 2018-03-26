@@ -16,7 +16,7 @@ artists.forEach((artist) => {
     console.log(artist);
 });
 
-
+// ForEach Example 1
 const names = ["Francis", "Lisa", "Ron"];
 let template = "";
 
@@ -25,3 +25,23 @@ names.forEach(function(name) {
 });
 
 document.body.insertAdjacentHTML("afterbegin", template);
+
+// ForEach Example 2
+var purchases = [
+    { product: "Phones", number: 2, amount: 100 },
+    { product: "TV", number: 5, amount: 100},
+    { product: "Mac", number: 10, amount: 100 }];
+
+var total = 0;
+
+for (var i = 0; i < purchases.length; i++) {
+    total += purchases[i].number * purchases[i].amount;
+}
+
+console.log(total);
+
+purchases.forEach(function (purchase) {
+    total += purchase.number * purchase.amount;
+});
+
+console.log(total); 
