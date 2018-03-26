@@ -18,18 +18,18 @@ Quizzer (Unfinished) <br>
 Osom Movie (Unfinished) <br>
 
 ### Course Outline:
-Section 1: Intro <br>
-Section 2: Basics <br>
-Section 3: DOM <br>
-Section 4: Arrays <br>
-Section 5: Functions <br>
-Section 6: Objects <br>
-Section 7: Project - Profile Card Generator <br>
-Section 8: Project - Who pays the bill? <br>
-Section 9: GET & POST <br>
-Section 10: Project - Music DB <br>
-Section 11: ES6 <br>
-Section 12: ES6 Helpers <br>
+Section 1: Intro &check; <br>
+Section 2: Basics &check; <br>
+Section 3: DOM &check; <br>
+Section 4: Arrays &check; <br>
+Section 5: Functions &check; <br>
+Section 6: Objects &check; <br>
+Section 7: Project - Profile Card Generator &check; <br>
+Section 8: Project - Who pays the bill? &check; <br>
+Section 9: GET & POST &check; <br>
+Section 10: Project - Music DB &check; <br>
+Section 11: ES6 &check; <br>
+Section 12: ES6 Helpers &check; <br>
 Section 13: ES6 Functions & Objects <br>
 Section 14: ES6 Classes <br>
 Section 15: ES6 Destructuring <br>
