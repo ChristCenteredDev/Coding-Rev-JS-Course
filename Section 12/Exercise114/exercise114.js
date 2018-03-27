@@ -6,19 +6,17 @@ var products = [
     { name: 'Windows Phone', price: 10 }
 ];
 
-let productDiv = document.querySelector(".product");
 let template = "";
 
 products.forEach(function (product) {
     if (product.price < 100) {
-        template += `<h1>${product.name}</h1>
+        template += `<div class="product"><h1>${product.name}</h1>
    <strong>Price: $ ${product.price} </strong>
-   <span>On sale !!</span>`;
+   <span>On sale !!</span></div>`;
     } else {
-        template += `<h1>${product.name}</h1>
-   <strong>Price: $ ${product.price} </strong>`;
+        template += `<div class="product"><h1>${product.name}</h1>
+   <strong>Price: $ ${product.price} </strong></div>`;
     }
 });
 
-productDiv.innerHTML = '';
-productDiv.insertAdjacentHTML('afterbegin', template);
+document.body.insertAdjacentHTML('afterbegin', template);
