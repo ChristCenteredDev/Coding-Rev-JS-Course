@@ -1,0 +1,1 @@
+// Every and Some Helper
