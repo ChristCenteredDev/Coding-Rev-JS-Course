@@ -6,4 +6,10 @@ const cars = [
     { name: 'Ford', price: 200 },
     { name: 'Nissan', price: 400 },
     { name: 'Chevy', price: 600 }
-]
+];
+
+const listCars = cars.map(function (item) {
+    return `${item.name} is ${item.price} rupies`;
+});
+
+console.log(listCars);
