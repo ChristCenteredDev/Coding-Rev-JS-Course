@@ -9,7 +9,12 @@ const cars = [
 ];
 
 const listCars = cars.map(function (item) {
-    return `${item.name} is ${item.price} rupies`;
+    return `${item.name} is ${convertPrice(item.price)} rupies`;
 });
+
+// Convert's USD to Rupee at 65.01 rate
+function convertPrice(price) {
+    return price * 65.01;
+}
 
 console.log(listCars);
