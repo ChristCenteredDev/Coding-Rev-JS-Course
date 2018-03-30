@@ -54,7 +54,7 @@ const car = new Car({
 
 console.log(car);
 
-
+// ES6 Classes IV - Watched Video
 
 
 
