@@ -1,4 +1,4 @@
-// ES6 Classes
+// ES6 Classes I
 
 // ES5
 function Car() { }
@@ -14,7 +14,7 @@ var ford = new Car();
 
 console.log(ford.__proto__);
 
-// ES6
+// ES6 Classes II
 
 class Car {
     constructor() {
@@ -32,3 +32,33 @@ const ford = new Car();
 
 console.log(car);
 console.log(ford);
+
+// ES6 Classes III
+
+class Car {
+    constructor({status, wheels, avail}) {
+        this.status = status;
+        this.wheels = wheels;
+        this.avail = avail;
+    }
+
+};
+
+const car = new Car({
+    status: "New",
+    wheels: 4,
+    avail: () => {
+    console.log("available");
+},
+});
+
+console.log(car);
+
+
+
+
+
+
+
+
+
