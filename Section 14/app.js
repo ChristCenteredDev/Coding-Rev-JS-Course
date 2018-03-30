@@ -1,3 +1,3 @@
-// External JS Script that get's linked to HTML Document
+// ES6 Classes
 
 
