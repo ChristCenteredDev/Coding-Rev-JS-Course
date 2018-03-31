@@ -15,3 +15,11 @@ console.log(lastname);
 console.log(age);
 
 const { name, lastname, age } = user;
+
+// Destructuring Arrays
+
+const cars = ["Camero", "Nova", "Audi"];
+
+const camero = cars[0];
+
+const [Camero,...rest] = cars;
