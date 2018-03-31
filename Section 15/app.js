@@ -32,4 +32,20 @@ const users = [
     {name: "Helen", lastname: "Neron", age: 16},
 ];
 
-const [{lastname}] = users;
+const [{ lastname }] = users;
+
+// Destructuring Function Arguments
+
+function createCar({ brand, model, color, type, year }) {
+
+}
+
+const car = {
+    brand: "Ford",
+    model: "Focus",
+    color: "red",
+    year: "2015",
+    type: "fast"
+}
+
+createCar(car);
