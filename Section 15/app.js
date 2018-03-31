@@ -22,4 +22,14 @@ const cars = ["Camero", "Nova", "Audi"];
 
 const camero = cars[0];
 
-const [Camero,...rest] = cars;
+const [Camero, ...rest] = cars;
+
+// More on Destructuring
+
+const users = [
+    {name: "Francis", lastname: "Jones", age: 25},
+    {name: "Martha", lastname: "Smith", age: 20},
+    {name: "Helen", lastname: "Neron", age: 16},
+];
+
+const [{lastname}] = users;
