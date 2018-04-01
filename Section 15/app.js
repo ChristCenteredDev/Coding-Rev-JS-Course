@@ -1,4 +1,4 @@
-// Destructuring Objects
+// ES6 - Destructuring Objects
 
 var user = {
     name: "Francis",
