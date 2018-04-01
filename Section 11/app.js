@@ -1,4 +1,4 @@
-// Let and Const
+// ES6 - Let and Const
 const type = "Cupcake";
 let flavor = "Apple";
 let price = 5;
