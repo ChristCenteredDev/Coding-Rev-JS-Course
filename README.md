@@ -33,8 +33,8 @@ Section 12: ES6 Helpers &check; <br>
 Section 13: ES6 Functions & Objects &check;<br>
 Section 14: ES6 Classes &check;<br>
 Section 15: ES6 Destructuring &check;<br>
-Section 16: jQuery <br>
-Section 17: jQuery Basics <br>
+Section 16: jQuery &check;<br>
+Section 17: jQuery Basics &check;<br>
 Section 18: jQuery DOM <br>
 Section 19: jQuery Events <br>
 Section 20: jQuery Animations & Transitions <br>
