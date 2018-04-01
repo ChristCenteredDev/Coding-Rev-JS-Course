@@ -1,4 +1,4 @@
-// Reduce Helper
+// ES6 - Reduce Helper
 
 const previous = 200;
 const current = [
